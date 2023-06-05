@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" id="hh" data-theme='cupcake'>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECCRIC</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="m-5 md:mx-[15%] dark">
+    <div class="navbar bg-base-300 border-spacing-2 rounded-2xl max-w-{658px} ">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Homepage</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-center">
+        <a class="btn btn-ghost normal-case text-xl" href="index.html">
+          <img class="w-24 " id="logo" src="Logo.png">
+        </a>
+      </div>
+      <div class="navbar-end">
+        <button class="btn btn-ghost btn-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </button>
+        <button class="btn btn-ghost btn-circle">
+          <div class="indicator">
+
+            <label class="swap swap-rotate ">
+
+              <!-- this hidden checkbox controls the state -->
+              <input type="checkbox" name="hesam" id="darkmod" />
+
+              <!-- sun icon -->
+              <svg class="swap-on fill-current w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+              </svg>
+
+              <!-- moon icon -->
+              <svg class="swap-off fill-current w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
+              </svg>
+
+            </label>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="flex mt-20  flex-col w-full lg:flex-row">
+      <div class=" grid flex-grow w-full justify-center min-w-[50%] items-center rounded-box">
+        <img class=" my-5  border-4 border-indigo-700 rounded-full " src="Sound - Animated Icon.gif" alt="">
+      </div>
+      <div class="grid flex-grow h-32 m-6 self-center">
+        <h1 class="text-2xl font-bold ">The story of your music starts here</h1>
+        <p class="">Listen to the music you like here and send it to your loved ones so that they can also enjoy it.</p>
+      </div>
+    </div>
+    <h1 class="text-center mt-36 text-3xl font-bold mb-10">Music</h1>
+
+    <!-- muuuussssiiicccc 
+
+
+
+
+-->
+
+
+
+    <div class="flex flex-wrap">
+      <div class="card w-96 bg-base-100 shadow-xl image-full m-1 snap-center grow basis-1/4 h-[300px]">
+        <figure><img src="medium.jpg" alt="music" class="w-full" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Classical music</h2>
+          <p>Click "View" to listen</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card w-96 bg-base-100 shadow-xl image-full m-1 snap-center grow  h-[300px]">
+        <figure><img src="medium.jpg" alt="music" class="w-full" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Jazz music</h2>
+          <p>Click "View" to listen</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card w-96 bg-base-100 shadow-xl image-full m-1 snap-center grow  h-[300px]">
+        <figure><img src="medium.jpg" alt="music" class="w-full" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Folk music</h2>
+          <p>Click "View" to listen</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card w-96 bg-base-100 shadow-xl image-full m-1 snap-center grow basis-1/4 h-[300px]">
+        <figure><img src="medium.jpg" alt="music" class="w-full" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Pop music</h2>
+          <p>Click "View" to listen</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">View</button>
+          </div>
+        </div>
+      </div>
+      <div class="card w-96 bg-base-100 shadow-xl image-full m-1 snap-center grow basis-1/4 h-[300px]">
+        <figure><img src="medium.jpg" alt="music" class="w-full" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Rock music</h2>
+          <p>Click "View" to listen</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">View</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card w-96 bg-base-100 shadow-xl image-full m-1 snap-center grow  h-[300px]">
+        <figure><img src="medium.jpg" alt="music" class="w-full" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Rap music</h2>
+          <p>Click "View" to listen</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">View</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card w-96 bg-base-100 shadow-xl image-full m-1 snap-center grow  h-[300px]">
+        <figure><img src="medium.jpg" alt="music" class="w-full" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Trending on Instagram</h2>
+          <p>Click "View" to listen</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">View</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card w-96 bg-base-100 shadow-xl image-full m-1 snap-center grow  h-[300px]">
+        <figure><img src="medium.jpg" alt="music" class="w-full" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Tik Tok is trending</h2>
+          <p>Click "View" to listen</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">View</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- tranding
+  
+  
+  -->
+    <h1 class="text-center mt-36 text-3xl font-bold mb-10">trending</h1>
+    <!-- component -->
+    <main class="grid place-items-center min-h-screen ">
+      <div>
+        <section class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <!-- CARD 1 -->
+          <div class="bg-gray-900 shadow-lg rounded-2xl p-3 ">
+            <div class="group relative">
+              <img class="w-full md:w-72 block rounded-2xl "
+                src="https://upload.wikimedia.org/wikipedia/en/f/f1/Tycho_-_Epoch.jpg" alt="" />
+              <div
+                class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="text-white text-lg">Epoch</h3>
+              <p class="text-gray-400">Tycho</p>
+            </div>
+          </div>
+          <!-- END OF CARD 1 -->
+
+          <!-- CARD 2 -->
+          <div class="bg-gray-900 shadow-lg rounded-2xl p-3 ">
+            <div class="group relative">
+              <img class="w-full md:w-72 block rounded-2xl "
+                src="https://upload.wikimedia.org/wikipedia/en/c/ca/Tycho_-_Awake.png" alt="" />
+              <div
+                class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="text-white text-lg">Awake</h3>
+              <p class="text-gray-400">Tycho</p>
+            </div>
+          </div>
+          <!-- END OF CARD 2 -->
+
+          <!-- CARD 3 -->
+          <div class="bg-gray-900 shadow-lg rounded-2xl p-3 ">
+            <div class="group relative">
+              <img class="w-full md:w-72 block rounded-2xl "
+                src="https://upload.wikimedia.org/wikipedia/en/1/11/Dive_tycho_album.jpg" alt="" />
+              <div
+                class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="text-white text-lg">Dive</h3>
+              <p class="text-gray-400">Tycho</p>
+            </div>
+          </div>
+          <!-- END OF CARD 3 -->
+          <div class="bg-gray-900 shadow-lg rounded-2xl p-3 ">
+            <div class="group relative">
+              <img class="w-full md:w-72 block rounded-2xl "
+                src="https://upload.wikimedia.org/wikipedia/en/1/11/Dive_tycho_album.jpg" alt="" />
+              <div
+                class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="text-white text-lg">Dive</h3>
+              <p class="text-gray-400">Tycho</p>
+            </div>
+          </div>
+
+
+          <div class="bg-gray-900 shadow-lg rounded-2xl p-3 ">
+            <div class="group relative">
+              <img class="w-full md:w-72 block rounded-2xl "
+                src="https://upload.wikimedia.org/wikipedia/en/1/11/Dive_tycho_album.jpg" alt="" />
+              <div
+                class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="text-white text-lg">Dive</h3>
+              <p class="text-gray-400">Tycho</p>
+            </div>
+          </div>
+
+          <div class="bg-gray-900 shadow-lg rounded-2xl p-3 ">
+            <div class="group relative">
+              <img class="w-full md:w-72 block rounded-2xl "
+                src="https://upload.wikimedia.org/wikipedia/en/1/11/Dive_tycho_album.jpg" alt="" />
+              <div
+                class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="text-white text-lg">Dive</h3>
+              <p class="text-gray-400">Tycho</p>
+            </div>
+          </div>
+          <div class="bg-gray-900 shadow-lg rounded-2xl p-3 ">
+            <div class="group relative">
+              <img class="w-full md:w-72 block rounded-2xl "
+                src="https://upload.wikimedia.org/wikipedia/en/1/11/Dive_tycho_album.jpg" alt="" />
+              <div
+                class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="text-white text-lg">Dive</h3>
+              <p class="text-gray-400">Tycho</p>
+            </div>
+          </div>
+          <div class="bg-gray-900 shadow-lg rounded-2xl p-3 ">
+            <div class="group relative">
+              <img class="w-full md:w-72 block rounded-2xl "
+                src="https://upload.wikimedia.org/wikipedia/en/1/11/Dive_tycho_album.jpg" alt="" />
+              <div
+                class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="text-white text-lg">Dive</h3>
+              <p class="text-gray-400">Tycho</p>
+            </div>
+          </div>
+          <div class="bg-gray-900 shadow-lg rounded-2xl p-3 ">
+            <div class="group relative">
+              <img class="w-full md:w-72 block rounded-2xl "
+                src="https://upload.wikimedia.org/wikipedia/en/1/11/Dive_tycho_album.jpg" alt="" />
+              <div
+                class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                  </svg>
+                </button>
+
+                <button
+                  class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="text-white text-lg">Dive</h3>
+              <p class="text-gray-400">Tycho</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+
+    <footer
+      class="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between my-10">
+      <p class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased">
+        © 2023 Material Tailwind
+      </p>
+      <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
+        <li>
+          <a href="#"
+            class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500">
+            About Us
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500">
+            License
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500">
+            Contribute
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
